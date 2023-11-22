@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    background-color: rgb(20, 20, 20);
+    font-family: "comfortaa";
+}
+/*End of body start of home button*/
+.homeButton {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: none;
+}
+.homeButton a{
+    color: white;
+    text-decoration: none;
+    font-family: "chelsea market";
+    font-size: 25px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.homeButton .selected-navpage{
+    color: rgb(188, 188, 188);
+}
+.homeButton a:hover{
+    color: rgb(190, 166, 208);
+}
+/*End of home button start of navbar*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(20, 20, 20);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "caveat";
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: right;
+}
+.navbar a:hover{
+    color: rgb(190, 166, 208);
+}
+.navbar .selected-navpage{
+    color: rgb(188, 188, 188);
+}
