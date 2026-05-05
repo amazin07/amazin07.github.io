@@ -5,6 +5,15 @@
     color: var(--text);
 }
 
+.jobs {
+    color: var(--text);
+}
+
+.jobs h2,
+.jobs p {
+    color: var(--text);
+}
+
 .jobdiv {
     margin-top: 50px;
 }
@@ -12,6 +21,11 @@
 .jobdiv h2 {
     font-size: 25px;
     font-weight: bold;
+}
+
+.jobs p {
+    color: var(--muted);
+    line-height: 1.6;
 }
 
 .date{

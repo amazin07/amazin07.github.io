@@ -37,12 +37,17 @@
     font-weight: bold;
     margin: 0;
     flex: 1;
+    color: var(--text);
 }
 
 .project-header h2 a {
     color: var(--text);
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.project-header h2 a:visited {
+    color: var(--text);
 }
 
 .project-header h2 a:hover {
@@ -101,6 +106,10 @@
 .project-links a:hover {
     background-color: var(--accent);
     color: var(--bg);
+}
+
+.project-links a:visited {
+    color: var(--accent);
 }
 
 @media screen and (min-width: 700px) {
