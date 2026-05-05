@@ -5,13 +5,28 @@
     color: rgb(0, 0, 0);
 }
 
-.projects {
+.research-intro {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(245, 242, 250);
+    border-left: 5px solid rgb(190, 166, 208);
+    border-radius: 4px;
+}
+
+.research-intro p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(80, 80, 80);
+    margin: 0;
+}
+
+.research {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.project-item {
+.research-item {
     border: 1px solid rgb(220, 220, 220);
     border-left: 5px solid rgb(190, 166, 208);
     background: white;
@@ -19,11 +34,11 @@
     transition: all 0.3s ease;
 }
 
-.project-item:hover {
+.research-item:hover {
     box-shadow: 0 4px 12px rgba(190, 166, 208, 0.2);
 }
 
-.project-header {
+.research-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,21 +47,12 @@
     user-select: none;
 }
 
-.project-header h2 {
+.research-header h2 {
     font-size: 22px;
     font-weight: bold;
     margin: 0;
     flex: 1;
-}
-
-.project-header h2 a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.project-header h2 a:hover {
-    color: rgb(190, 166, 208);
 }
 
 .toggle-arrow {
@@ -61,32 +67,32 @@
     transform: rotate(180deg);
 }
 
-.project-details {
+.research-details {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
     padding: 0 20px;
 }
 
-.project-details.active {
+.research-details.active {
     max-height: 500px;
     padding: 0 20px 20px 20px;
 }
 
-.project-details p {
+.research-details p {
     font-size: 16px;
     line-height: 1.6;
     color: rgb(80, 80, 80);
     margin: 0 0 15px 0;
 }
 
-.project-links {
+.research-links {
     display: flex;
     gap: 15px;
     margin-top: 15px;
 }
 
-.project-links a {
+.research-links a {
     display: inline-block;
     padding: 8px 16px;
     background-color: rgb(240, 235, 250);
@@ -98,7 +104,7 @@
     border: 1px solid rgb(190, 166, 208);
 }
 
-.project-links a:hover {
+.research-links a:hover {
     background-color: rgb(190, 166, 208);
     color: white;
 }
@@ -110,16 +116,20 @@
         margin-right: 150px;
     }
 
-    .project-header h2 {
+    .research-intro {
+        padding: 25px;
+        font-size: 18px;
+    }
+
+    .research-header h2 {
         font-size: 26px;
     }
 
-    .project-header {
+    .research-header {
         padding: 25px;
     }
 
-    .project-details.active {
+    .research-details.active {
         padding: 0 25px 25px 25px;
     }
 }
-

@@ -9,10 +9,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Chelsea+Market&family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+        <script src="JS/projects.js"></script>
     </head>
     <body>
         <nav class="navbar">
             <ul>
+                <li><a href="research.html">Research</a></li>
                 <li><a href="employment.html">Employment</a></li>
                 <li><a href="projects.html" class="selected-navpage">Projects</a></li>
             </ul>
@@ -20,14 +22,32 @@
         <button class = "homeButton"><a href="index.html">Andrei Mazin</a></button>
         <div class="container">
             <div class="projects">
-                <div class="project-card">
-                    <h2><a href="https://devpost.com/software/deaflingo" target="_blank">Deaflingo</a></h2>
-                    <p>Duolingo meets sign language—Learning sign language should be more than a Google search, and we've made it possible for just your webcam to recognize your hands and make your technique better. A web app that uses computer vision and machine learning to teach American Sign Language interactively.</p>
+                <div class="project-item">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h2><a href="https://devpost.com/software/deaflingo" target="_blank">Deaflingo</a></h2>
+                        <span class="toggle-arrow">▼</span>
+                    </div>
+                    <div class="project-details">
+                        <p>Duolingo meets sign language—Learning sign language should be more than a Google search, and we've made it possible for just your webcam to recognize your hands and make your technique better. A web app that uses computer vision and machine learning to teach American Sign Language interactively.</p>
+                        <div class="project-links">
+                            <a href="https://devpost.com/software/deaflingo" target="_blank">Devpost</a>
+                            <a href="https://github.com/MHS-Math-Club/Deaflingo" target="_blank">GitHub</a>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="project-card">
-                    <h2><a href="https://devpost.com/software/speechtree?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank">SpeechTree</a></h2>
-                    <p>Real-time speech therapy through immediate haptic feedback. A mobile app that provides live coaching for improved speech patterns, analytics on speaking habits, and progress tracking to help users eliminate filler words and enhance their communication skills.</p>
+                <div class="project-item">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h2><a href="https://devpost.com/software/speechtree?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank">SpeechTree</a></h2>
+                        <span class="toggle-arrow">▼</span>
+                    </div>
+                    <div class="project-details">
+                        <p>Real-time speech therapy through immediate haptic feedback. A mobile app that provides live coaching for improved speech patterns, analytics on speaking habits, and progress tracking to help users eliminate filler words and enhance their communication skills.</p>
+                        <div class="project-links">
+                            <a href="https://devpost.com/software/speechtree?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank">Devpost</a>
+                            <a href="https://github.com/tanish787/YHack-2026" target="_blank">GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
