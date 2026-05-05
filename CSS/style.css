@@ -26,6 +26,26 @@
     --shadow: rgba(0, 0, 0, 0.35);
 }
 
+body.page-projects {
+    --accent: rgb(190, 166, 208);
+    --accent-soft: rgb(240, 235, 250);
+}
+
+body.page-research {
+    --accent: rgb(136, 168, 228);
+    --accent-soft: rgb(232, 240, 252);
+}
+
+[data-theme="dark"] body.page-projects {
+    --accent: rgb(224, 198, 240);
+    --accent-soft: rgb(44, 40, 54);
+}
+
+[data-theme="dark"] body.page-research {
+    --accent: rgb(150, 190, 255);
+    --accent-soft: rgb(32, 40, 58);
+}
+
 body{
     margin: 0px; 
     background-color: var(--bg);

@@ -109,6 +109,10 @@
     color: var(--bg);
 }
 
+.research-intro {
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
 @media screen and (min-width: 700px) {
     .container {
         margin: 100px;
