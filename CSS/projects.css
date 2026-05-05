@@ -1,0 +1,67 @@
+.container {
+    margin: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    color: rgb(0, 0, 0);
+}
+
+.projects h2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.projects h2 a:hover {
+    color: rgb(190, 166, 208);
+}
+
+.projects p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    padding: 0;
+}
+
+.project-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 235, 250, 0.9) 100%);
+    border-left: 5px solid rgb(190, 166, 208);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 15px rgba(190, 166, 208, 0.3);
+    transform: translateY(-2px);
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        margin: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .projects h2 {
+        font-size: 32px;
+    }
+
+    .project-card {
+        padding: 40px;
+    }
+}
