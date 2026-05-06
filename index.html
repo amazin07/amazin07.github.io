@@ -9,12 +9,13 @@
             document.documentElement.style.colorScheme = document.documentElement.dataset.theme;
         </script>
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/index.css">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Chelsea+Market&family=Comfortaa:wght@600&display=swap" rel="stylesheet">
         <script src="JS/theme.js" defer></script>
     </head>
-    <body>
+    <body class="page-home">
         <nav class="navbar">
             <ul>
                 <li><a href="research.html">Research</a></li>
@@ -23,6 +24,20 @@
             </ul>
         </nav>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode" onclick="toggleTheme()"><span>🌙</span></button>
-        <button class = "homeButton"><a class="selected-navpage" href="index.html">Andrei Mazin</a></button>
+        <main class="home-shell">
+            <p class="eyebrow">Andrei Mazin</p>
+            <h1>University of Toronto student studying Mathematics, interested in CS.</h1>
+            <p class="home-copy">I am interested in software, machine learning, and systems.</p>
+
+            <div class="home-links">
+                <a href="https://github.com/amazin07" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/andrei-mazin-92511a384/" target="_blank">LinkedIn</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+            </div>
+
+            <div class="home-note">
+                <p><a href="projects.html">Projects</a> · <a href="research.html">Research</a> · <a href="employment.html">Employment</a></p>
+            </div>
+        </main>
     </body>
 </html>
