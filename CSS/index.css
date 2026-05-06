@@ -1,6 +1,11 @@
 .page-home .home-shell {
-    width: min(620px, calc(100% - 48px));
-    margin: 120px auto 80px;
+    width: min(720px, calc(100% - 48px));
+    margin: 0 auto;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0;
 }
 
 .page-home .eyebrow {
@@ -74,6 +79,6 @@
 
 @media screen and (min-width: 800px) {
     .page-home .home-shell {
-        margin-top: 140px;
+        padding: 80px 0;
     }
 }
