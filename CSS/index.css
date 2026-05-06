@@ -1,0 +1,79 @@
+.page-home .home-shell {
+    width: min(620px, calc(100% - 48px));
+    margin: 120px auto 80px;
+}
+
+.page-home .eyebrow {
+    margin: 0 0 10px;
+    font-family: "Chelsea Market", "Comfortaa", sans-serif;
+    font-size: 22px;
+    text-transform: none;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+}
+
+.page-home h1 {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.65;
+    letter-spacing: 0;
+    max-width: 42ch;
+    font-weight: 600;
+}
+
+.page-home .home-copy {
+    margin: 14px 0 0;
+    max-width: 42ch;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.page-home .home-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.page-home .home-links a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1px;
+    font-size: 15px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.page-home .home-links a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.page-home .home-note {
+    margin-top: 18px;
+}
+
+.page-home .home-note p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.page-home .home-note a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.page-home .home-note a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+@media screen and (min-width: 800px) {
+    .page-home .home-shell {
+        margin-top: 140px;
+    }
+}
