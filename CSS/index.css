@@ -40,36 +40,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
     margin-top: 20px;
-}
-
-.page-home .icon-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 34px;
-    height: 34px;
-    color: var(--text);
-    text-decoration: none;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: transparent;
-    transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
-}
-
-.page-home .icon-link svg {
-    width: 18px;
-    height: 18px;
-    display: block;
-    fill: currentColor;
-}
-
-.page-home .icon-link:hover {
-    color: var(--accent);
-    border-color: var(--accent);
-    background: var(--accent-soft);
-    transform: translateY(-1px);
 }
 
 .page-home .home-links a {
