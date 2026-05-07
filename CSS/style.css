@@ -10,6 +10,7 @@
     --accent-soft: rgb(240, 235, 250);
     --border: rgb(220, 220, 220);
     --shadow: rgba(190, 166, 208, 0.2);
+    --social-icon-filter: none;
 }
 
 [data-theme="dark"] {
@@ -24,6 +25,7 @@
     --accent-soft: rgb(44, 40, 54);
     --border: rgb(62, 62, 72);
     --shadow: rgba(0, 0, 0, 0.35);
+    --social-icon-filter: brightness(0) invert(1);
 }
 
 body.page-projects {
